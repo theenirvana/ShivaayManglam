@@ -4,9 +4,6 @@ ul, nav, body, h1, h2, h4, h6, p, figure {
 }
 
 a, button { transition: all 0.3s ease; }
-
-/* Bootstrap grid system  */
-
 html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
@@ -352,6 +349,7 @@ p, address {
   }
 }
 
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .tm-gallery-page,
@@ -430,7 +428,10 @@ p, address {
   background-color: #2F956D;
   color: white;
 }
-
+#g-img{
+  width:100%;
+  height: 100%;
+}
 .tm-description-figure {
   text-align: center;  
 }
